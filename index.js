@@ -5,3 +5,11 @@ module.exports = Application({
     //do what ever you want after save comment
   }
 });
+
+module.exports = Waline({
+  forbiddenWords: [
+    '习近平',
+    '毛泽东',
+    '密码'
+  ]
+});
